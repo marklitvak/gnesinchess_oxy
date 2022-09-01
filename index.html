@@ -35,7 +35,7 @@
         <div class="item active" style="background-image: url(images/slider/1.jpg)">
           <div class="caption">
             <h1 class="animated fadeInLeftBig">Приветствуем в <span>GnesinChess</span></h1>
-            <p class="animated fadeInRightBig">Еженедельные турниры, задачи и статьи</p>
+            <p class="animated fadeInRightBig">Еженедельные турниры, задачи и конкурсы</p>
             <blockquote class="animated fadeInLeftBig">"Шахматы — это борьба, главным образом со своими ошибками." —Сергей Прокофьев</blockquote>
           </div>
         </div>
@@ -64,6 +64,7 @@
             <li class="scroll"><a href="#about-us">Из чего же сделана игра</a></li>
             <li class="scroll"><a href="#tournament">Расписание игр</a></li>                     
             <li class="scroll"><a href="#portfolio">Задачи</a></li>
+            <li class="scroll"><a href="#challenge">Конкурс</a></li>
             <li class="scroll"><a href="#blog">Блог</a></li>
             <li class="scroll"><a href="#contact">Контакты</a></li>       
           </ul>
@@ -322,6 +323,28 @@
     </div>
   </section><!--/#features-->
 
+  <section id="challenge">
+    <div class="container">
+      <h2>Конкурс</h2>
+      <p id="countdown"></p>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdcgTPpCg-2MRg_3WH3VChhqgnM8es6GZiKnvACDbw5U2zl-w/viewform?embedded=true" width="640" height="844" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+    <script>
+    var countDownDate = new Date("Jan 5, 2019 15:37:25").getTime();
+    var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "Конкурс завершён! Успехов!";
+      }
+    }, 1000);
+    </div>
+  </section><!--/#challenge-->  
   <section id="blog">
     <div class="container">
       <div class="row">
