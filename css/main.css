@@ -1,16 +1,3 @@
-/*
-  Theme Name: Oxygen
-  Theme Uri: http://www.themeum.com
-  Author: Themeum
-  Author Uri: http://www.themeum.com
-  Description: Onepage Site Template
-  Version: 1.0
-*/
-
-/*************************
-*******Typography******
-**************************/
-
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -32,9 +19,10 @@ h3 {
   font-size: 18px;
 }
 
-table {
+td {
   border: 1;
   padding: 10px;
+  padding-left: 15px;
 }
 
 .parallax {
