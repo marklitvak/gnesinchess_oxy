@@ -19,7 +19,11 @@ h3 {
   font-size: 18px;
 }
 
-td {
+table {
+  width: 100%;
+}
+
+th, td {
   border: 1;
   padding: 5px;
   padding-left: 10px;
