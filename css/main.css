@@ -32,6 +32,7 @@ th, td {
 
 p1{
   display: block;
+  text-align: justify;
 }
 
 .parallax {
