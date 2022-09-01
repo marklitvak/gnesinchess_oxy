@@ -30,9 +30,8 @@ th, td {
   font-size: 11px;
 }
 
-p1{
+p > #blogpostex{
   display: none;
-  text-align: justify;
 }
 
 .parallax {
