@@ -825,6 +825,12 @@ section {
   font-size: 14px;
 }
 
+.blog-posts > .entry-content {
+  font-size: 14px;
+  heigth: 600px;
+}
+
+
 .load-more {
   display:block;
   text-align: center;
