@@ -32,6 +32,11 @@ h3 {
   font-size: 18px;
 }
 
+table {
+  border: 1;
+  padding: 10px;
+}
+
 .parallax {
   background-size: cover;
   background-repeat: no-repeat;
