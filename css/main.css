@@ -30,10 +30,6 @@ th, td {
   font-size: 11px;
 }
 
-article {
-  height: 600px;
-}
-
 .parallax {
   background-size: cover;
   background-repeat: no-repeat;
