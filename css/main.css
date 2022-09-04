@@ -49,12 +49,12 @@ th, td {
   color: #fff;
 }
 
-table .past {
-  background-color: gray;
-}
-
 tr .online {
   background-color: lime;
+}
+
+table .past {
+  background-color: light-gray;
 }
 
 .parallax input[type="text"],
