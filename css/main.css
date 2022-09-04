@@ -30,6 +30,8 @@ th, td {
   font-size: 11px;
 }
 
+
+
 .parallax {
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,6 +47,14 @@ th, td {
 .parallax h5,
 .parallax h6 {
   color: #fff;
+}
+
+table .past {
+  background-color: gray;
+}
+
+tr .online {
+  background-color: lime;
 }
 
 .parallax input[type="text"],
