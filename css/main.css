@@ -30,8 +30,6 @@ th, td {
   font-size: 11px;
 }
 
-
-
 .parallax {
   background-size: cover;
   background-repeat: no-repeat;
@@ -47,10 +45,6 @@ th, td {
 .parallax h5,
 .parallax h6 {
   color: #fff;
-}
-
-tr .online {
-  background-color: lime;
 }
 
 table .past {
